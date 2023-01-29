@@ -45,14 +45,13 @@ img:nth-child(1) {
   border-radius: 3%;
 }
 
-p:nth-child(2) {
+h1:nth-child(2) {
   font-size: 0.9rem;
   opacity: 0.8;
+  text-align: center;
 
   margin-top: 6%;
   margin-bottom: 6%;
-
-  font-weight: 1000;
 }
 
 p:nth-child(3) {
