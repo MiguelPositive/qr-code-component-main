@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  margin-top: 20px;
+}
+
+.box:nth-child(1) {
+  margin-right: 20px;
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 10px 1px gray;
+}
